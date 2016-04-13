@@ -5,7 +5,7 @@ import javax.swing.JOptionPane;
 public class Ej4 {
 
 	public static void main(String[] args) {
-		int i = int.parseInt(JOptionPane.showInputDialog("dime un caracter"));
+		int i = Integer.parseInt(JOptionPane.showInputDialog("dime un caracter"));
 		
 
 		if(i < 97){
