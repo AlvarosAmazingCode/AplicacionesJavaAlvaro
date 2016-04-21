@@ -1,5 +1,7 @@
 package main;
+
 import javax.swing.JFrame;
+import javax.swing.JOptionPane;
 
 public class Ventana extends JFrame{
 public Ventana(){
