@@ -7,7 +7,7 @@ import java.awt.Polygon;
 public class Arbol {
 	private static float GRADOS = 40;
 	private static final float FACTOR_ANCHO = 0.1f;
-	private static final float FACTOR_HIJOS = 0.75f;
+	private static final float FACTOR_HIJOS = 0.55f;
 	
 	private long tini = System.currentTimeMillis();
 	
