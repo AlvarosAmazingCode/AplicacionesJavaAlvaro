@@ -21,7 +21,7 @@ public class MyPanel extends JPanel{
 		super.paint(g);
 		setBackground(Color.GRAY);
 			g.setColor(c);
-			g.fillOval((int)x, (int) y, (int)anchoBola, (int)altoBola);
+			g.fillOval((int)x, (int) y, (int)altoBola, (int)altoBola);
 			x = x + vy;
 			y = y - vx;
 			repaint();
