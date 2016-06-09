@@ -41,7 +41,7 @@ public class MyPanel extends JPanel{
 				vx = 0.2f;
 				c = Color.GREEN;
 			}
-			if(x > 1830 - anchoBola/2){
+			if(x > 1860 - anchoBola/2){
 				anchoBola = (int)(Math.random()*190);
 				altoBola = (int)(Math.random()*190);
 				vy = -0.5f;
