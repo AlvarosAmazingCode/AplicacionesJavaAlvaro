@@ -4,23 +4,27 @@ import java.awt.Color;
 import java.awt.Graphics;
 import javax.swing.JPanel;
 
-@SuppressWarnings("serial")
+
 public class Panel extends JPanel{
 	float vy = 0.4f;
 	float vx = 0.1f;
 	
 	float x = 200f;
 	float y = 250f;
+	int n;
 	
-	int n = 0;
 	public int l(int n){
 		return n;
+		
+		
+		
 	}
-	public void k(){	
-	@Override
+	
+	public int a = n;
+	
 	public void paint(Graphics g){
 		super.paint(g);
-		
+		while(a > 1){
 		g.setColor(Color.BLUE);
 		g.fillOval((int)x, (int) y, 50, 50);
 		x = x + vy;
@@ -45,9 +49,16 @@ public class Panel extends JPanel{
 			vy = -0.5f;
 			vx = -0.2f;
 		}
+		
 	}
 	}
-	}
+}
+	
+	
+	
+	
+
+
 	
 	
 

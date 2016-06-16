@@ -1,12 +1,20 @@
 package program;
 
+
+
 import java.awt.Color;
+
 import java.awt.Font;
+
 import java.awt.event.ActionEvent;
+
 import java.awt.event.ActionListener;
 
 import javax.swing.JButton;
+
 import javax.swing.JFrame;
+
+
 
 public class Main {
 
@@ -26,7 +34,7 @@ public class Main {
 		boton.addActionListener(new ActionListener(){
 			@Override
 			public void actionPerformed(ActionEvent b) {
-				 panel.l(2);
+				panel.l(9);
 			}
 			
 		});
