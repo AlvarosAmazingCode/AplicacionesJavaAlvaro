@@ -15,6 +15,11 @@ import javax.swing.JPanel;
 
 
 public class Panel extends JPanel{
+	private String name;
+	
+	public Panel(String n){
+		name = n;
+	}
 
 	int anchoPantalla = Toolkit.getDefaultToolkit().getScreenSize().width;
 	int altoPantalla = Toolkit.getDefaultToolkit().getScreenSize().height;
